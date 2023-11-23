@@ -1,3 +1,10 @@
-*.sqlite3
-*.py
-**__pycache__
+db.sqlite3
+news/migrations/*.py
+main/*.py
+startup/*.py
+*/__pycache__/*.pyc
+*/*/__pycache__/*.pyc
+*/*.py
+*/*/*.py
+main/migrations/*.py
+manage.py
